@@ -22,9 +22,11 @@ git环境变量配置完成
 
 打开根目录下package.json文件
 
-在dependencies下面的element-ui值改为git+https://github.com/PGYangel/my-element.git
+在dependencies下面的element-ui值改为git+http://git.q1op.com/yerong/bc-element-ui.git
 
-然后重新npm i重新下载依赖包即可
+"element-ui": "git+http://git.q1op.com/yerong/bc-element-ui.git"
+
+然后重新npm i element-ui重新下载依赖包即可
 
 ## 命令集
 安装yarn：npm install -g yarn
@@ -51,15 +53,18 @@ lib 打包发布
 
 3、查看自己修改后的效果：http://127.0.0.1:8085/#/zh-CN/
 
+
 去到examples\docs\zh-CN\组件名.md，按照自己的定义，修改一下，就可以在页面的相应的组件的例子中看到自己修改后的效果
 
 4、生成lib文件夹，方面后面使用自己的代码
 
 ## 新增组件：
-1、在packages目录下建立新增组件文件夹，如：testInput
+1、在packages目录下建立新增组件文件夹，如：able-change-time
 
-2、testInput文件夹src放资源，vue文件需要跟组见名相同
+2、able-change-time文件夹src放资源，vue文件需要跟组件名相同
 
 3、index.js文件夹内容要符合组件名
 
 4、根目录下components.json文件添加新组件引用
+
+5、examples\nav.config.json文件设置新增的组件文档导航

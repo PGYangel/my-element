@@ -38,6 +38,15 @@
       ]
     },
     {
+      "name": "自定义组件",
+      "children": [
+        {
+          "path": "/able-change-time",
+          "name": "双时间选择"
+        }
+      ]
+    },
+    {
       "name": "组件",
       "groups": [
         {
@@ -87,10 +96,6 @@
             {
               "path": "/input",
               "title": "Input"
-            },
-            {
-              "path": "/testInput",
-              "title": "testInput 输入框"
             },
             {
               "path": "/input-number",

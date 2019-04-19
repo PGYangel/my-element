@@ -70,8 +70,8 @@ import Aside from '../packages/aside/index.js';
 import Main from '../packages/main/index.js';
 import Footer from '../packages/footer/index.js';
 import Timeline from '../packages/timeline/index.js';
-import TestInput from '../packages/testInput/index.js';
 import TimelineItem from '../packages/timeline-item/index.js';
+import AbleChangeTime from '../packages/able-change-time/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -142,8 +142,8 @@ const components = [
   Main,
   Footer,
   Timeline,
-  TestInput,
   TimelineItem,
+  AbleChangeTime,
   CollapseTransition
 ];
 
@@ -253,6 +253,6 @@ export default {
   Main,
   Footer,
   Timeline,
-  TestInput,
-  TimelineItem
+  TimelineItem,
+  AbleChangeTime
 };

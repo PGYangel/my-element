@@ -29,7 +29,6 @@
         :readonly="readonly"
         :autocomplete="autoComplete || autocomplete"
         ref="input"
-        placeholder="测试文字3333"
         @compositionstart="handleCompositionStart"
         @compositionend="handleCompositionEnd"
         @input="handleInput"
